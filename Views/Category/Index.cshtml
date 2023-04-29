@@ -1,22 +1,50 @@
-﻿
+﻿ 
 @{
     Layout = null;
 }
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 
 <h3>MVC proje örneği</h3>
-<br />  
-<table>
+<br />
+<table class="table-condensed" width="100%" border="1">
     <tr>
         <th> ID</th>
         <th> Adi </th>
         <th> Açıklama </th>
         <th> Durum</th>
-        
+        <th>Güncelleme</th>
+
     </tr>
     <tr>
         <td>1</td>
         <td>Spor</td>
         <td>Skor</td>
         <td>True</td>
+        <td><button class="btn btn-success">Güncelle</button></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Kitap</td>
+        <td>Açıklama yapıldı</td>
+        <td>True</td>
+        <td><button class="btn btn-success">Güncelle</button></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Cinema</td>
+        <td>Yorum yapıldı</td>
+        <td>True</td>
+        <td><button class="btn btn-success">Güncelle</button></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Tiyatro</td>
+        <td>Yorumlar yapıldı</td>
+        <td>True</td>
+        <td><button class="btn btn-success">Güncelle</button></td>
     </tr>
 </table>
+<br />
+<button class="btn btn-info">Yeni Kategori</button>
+<button class="btn btn-warning">Kategori Açıklamaları</button>
+<button class="btn btn-danger">Yorumunuzu Ekleyin</button>
